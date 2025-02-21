@@ -25,6 +25,7 @@ local palette = {
 	green = "#15AC91",
 	yellow = "#F2C55C",
 
+	bright_black = "#3a3a3e",
   bright_orange = "#FAE7D9",
   bright_red    = "#FDD9D4",
   bright_magenta= "#F7DFF5",
