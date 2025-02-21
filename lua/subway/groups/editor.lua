@@ -8,7 +8,7 @@ return {
 	lCursor = { fg = p.bg_dark, bg = p.subtext4 }, -- the character under the cursor when |language-mapping| is used (see 'guicursor')
 	CursorIM = { fg = p.bg_dark, bg = p.subtext4 }, -- like Cursor, but used when in IME mode |CursorIM|
 	CursorLine = { bg = p.gray2 }, -- Screen-line at the cursor, when 'cursorline' is set.
-	Directory = { fg = p.purple }, -- directory names (and other special names in listings)
+	Directory = { fg = p.subtext1 }, -- directory names (and other special names in listings)
 
 	-- Diff highlighting
 	DiffAdd = { bg = p.gray1, fg = p.bright_green }, -- diff mode: Added line |diff.txt|
