@@ -45,7 +45,9 @@ return {
 
 	Special = { fg = p.subtext1 }, -- any special symbol
 	SpecialChar = { fg = p.magenta }, -- special character in a constant
-	Tag = { fg = p.orange }, -- you can use CTRL-] on this
+	["@tag"] = { fg = p.orange }, -- Element (tag) names
+	["@tag.attribute"] = { fg = p.purple, italic = true },
+	["@tag.delimiter"] = { fg = p.subtext1 },
 	Debug = { fg = p.red }, -- debugging statements
 
 	Underlined = { underline = true }, -- text that stands out, HTML links
