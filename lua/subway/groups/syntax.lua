@@ -48,6 +48,8 @@ return {
 	["@tag"] = { fg = p.orange }, -- Element (tag) names
 	["@tag.attribute"] = { fg = p.purple, italic = true },
 	["@tag.delimiter"] = { fg = p.subtext1 },
+	["@variable"] = { fg = p.fg } + styles.variables,
+	["@property"] = { fg = p.blue, italic = true },
 	Debug = { fg = p.red }, -- debugging statements
 
 	Underlined = { underline = true }, -- text that stands out, HTML links
