@@ -21,7 +21,7 @@ return {
 	Boolean = { fg = p.cyan } + styles.booleans, -- a boolean constant: TRUE, false
 	Float = { fg = p.purple }, -- a floating point constant: 2.3e10
 
-	Identifier = { fg = p.fg } + styles.identifiers, -- any variable name
+	Identifier = { fg = p.blue } + styles.identifiers, -- any variable name
 	Function = { fg = p.purple } + styles.functions, -- function name (also: methods for classes)
 
 	Statement = { fg = p.cyan }, -- any statement
@@ -43,7 +43,7 @@ return {
 	Structure = { fg = p.orange }, -- struct, union, enum, etc.
 	Typedef = { fg = p.orange }, -- A typedef
 
-	Special = { fg = p.subtext1 }, -- any special symbol
+	Special = { fg = p.purple }, -- any special symbol
 	SpecialChar = { fg = p.magenta }, -- special character in a constant
 	["@tag"] = { fg = p.orange }, -- Element (tag) names
 	["@tag.attribute"] = { fg = p.purple, italic = true },
